@@ -5,7 +5,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Button from "@material-ui/core/Button";
 import Toolbar from "@material-ui/core/Toolbar";
 import { Typography, IconButton } from "@material-ui/core";
-import { state, PAGES, goTo } from "@/components/router/history";
+import { historyState, PAGES, goTo } from "@/components/router/history";
 import { observer } from "mobx-react";
 import { computed, observable } from "mobx";
 import UserIcon from "@material-ui/icons/AccountCircle";
@@ -27,10 +27,10 @@ export default class NavBar extends React.Component<{}> {
         if ( internalState.customHeader !== "" ) {
             return internalState.customHeader;
         }
-        switch(state.currentPage) {
+        switch(historyState.currentPage) {
             case PAGES.HOME: return ""
             default:
-                return state.currentPage;
+                return historyState.currentPage;
         }
     }
     render() {

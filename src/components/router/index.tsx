@@ -13,6 +13,7 @@ import NotFoundPage from '@/components/pages/NotFoundPage';
 import ExamplePage from '@/components/pages/ExamplePage';
 import IndexPage from '@/components/pages/IndexPage';
 import ChildrenPage from '@/components/pages/ChildrenPage';
+import NewPlanPage from '@/components/pages/NewPlanPage';
 
 export default class AppRouter extends React.Component {
     public render() {
@@ -26,6 +27,7 @@ export default class AppRouter extends React.Component {
                             <Switch>
                                 <IndexPage path={PAGES.HOME} exact/>
                                 <ChildrenPage path={PAGES.CHILD_MGMT} exact/>
+                                <NewPlanPage path={PAGES.NEW_PLAN} exact/>
 
                                 <ExamplePage path={"/example"}/>
                                 <NotFoundPage path="*"/>

@@ -3,6 +3,7 @@ import { TextField, Card, CardHeader, CardContent, CardActions, Button, IconButt
 import Google from '@/components/Icons/Google';
 import { auth } from '@/db';
 import Notifier from '@/components/layouts/Notifier';
+import { logoImageUrl } from '@/assets';
 
 interface IState {
     email: string;
@@ -47,8 +48,7 @@ export default class Login extends React.Component<{}, IState> {
             switchBtnTxt = "I have an account";
         }
         return <Card>
-            <CardHeader title="Child Activity Manager"/>
-            <CardMedia style={{ height: "150px", backgroundSize: "contain" }} image={require("../../assets/City-of-Toronto-Logo.gif")}/>
+            <CardMedia style={{ height: "150px", backgroundSize: "contain" }} image={logoImageUrl}/>
             <CardContent>
                 <TextField fullWidth label="Email" placeholder="Email" value={email} onChange={ e => this.setState({ email: e.currentTarget.value }) } />
                 <TextField fullWidth type="password" label="Password" placeholder="Password" value={password} onChange={ e => this.setState({ password: e.currentTarget.value }) }/>

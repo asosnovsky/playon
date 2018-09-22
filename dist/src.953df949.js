@@ -60463,15 +60463,15 @@ exports.colors = colors; /** @license Material-UI v3.0.1
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var styles_1 = require("@material-ui/core/styles");
-var blue_1 = require("@material-ui/core/colors/blue");
-var teal_1 = require("@material-ui/core/colors/teal");
+var orange_1 = require("@material-ui/core/colors/orange");
+var lightBlue_1 = require("@material-ui/core/colors/lightBlue");
 exports.default = styles_1.createMuiTheme({
     palette: {
-        primary: blue_1.default,
-        secondary: teal_1.default
+        primary: orange_1.default,
+        secondary: lightBlue_1.default
     }
 });
-},{"@material-ui/core/styles":"../node_modules/@material-ui/core/styles/index.js","@material-ui/core/colors/blue":"../node_modules/@material-ui/core/colors/blue.js","@material-ui/core/colors/teal":"../node_modules/@material-ui/core/colors/teal.js"}],"../node_modules/history/node_modules/warning/browser.js":[function(require,module,exports) {
+},{"@material-ui/core/styles":"../node_modules/@material-ui/core/styles/index.js","@material-ui/core/colors/orange":"../node_modules/@material-ui/core/colors/orange.js","@material-ui/core/colors/lightBlue":"../node_modules/@material-ui/core/colors/lightBlue.js"}],"../node_modules/history/node_modules/warning/browser.js":[function(require,module,exports) {
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -67498,7 +67498,7 @@ var mobx_1 = require("mobx");
 var routes_enums_1 = require("./routes.enums");
 exports.PAGES = routes_enums_1.PAGES;
 exports.history = history_1.createBrowserHistory();
-exports.state = mobx_1.observable({
+exports.historyState = mobx_1.observable({
     currentPage: window.location.pathname
 });
 function goTo(path) {
@@ -67521,7 +67521,7 @@ function goHomeOrBack() {
 }
 exports.goHomeOrBack = goHomeOrBack;
 exports.history.listen(function (location) {
-    exports.state.currentPage = location.pathname;
+    exports.historyState.currentPage = location.pathname;
 });
 },{"history":"../node_modules/history/es/index.js","mobx":"../node_modules/mobx/lib/mobx.module.js","./routes.enums":"components/router/routes.enums.ts"}],"../node_modules/mobx-react/index.module.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -68826,6 +68826,28 @@ var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.d
 }), _react.default.createElement("path", {
   d: "M22.94 12.66c.04-.21.06-.43.06-.66s-.02-.45-.06-.66c-.25-1.51-1.36-2.74-2.81-3.17-.53-1.12-1.28-2.1-2.19-2.91C16.36 3.85 14.28 3 12 3s-4.36.85-5.94 2.26c-.92.81-1.67 1.8-2.19 2.91-1.45.43-2.56 1.65-2.81 3.17-.04.21-.06.43-.06.66s.02.45.06.66c.25 1.51 1.36 2.74 2.81 3.17.52 1.11 1.27 2.09 2.17 2.89C7.62 20.14 9.71 21 12 21s4.38-.86 5.97-2.28c.9-.8 1.65-1.79 2.17-2.89 1.44-.43 2.55-1.65 2.8-3.17zM19 14c-.1 0-.19-.02-.29-.03-.2.67-.49 1.29-.86 1.86C16.6 17.74 14.45 19 12 19s-4.6-1.26-5.85-3.17c-.37-.57-.66-1.19-.86-1.86-.1.01-.19.03-.29.03-1.1 0-2-.9-2-2s.9-2 2-2c.1 0 .19.02.29.03.2-.67.49-1.29.86-1.86C7.4 6.26 9.55 5 12 5s4.6 1.26 5.85 3.17c.37.57.66 1.19.86 1.86.1-.01.19-.03.29-.03 1.1 0 2 .9 2 2s-.9 2-2 2zM7.5 14c.76 1.77 2.49 3 4.5 3s3.74-1.23 4.5-3h-9z"
 })), 'ChildCare');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"../node_modules/@babel/runtime/helpers/interopRequireDefault.js","react":"../node_modules/react/index.js","./utils/createSvgIcon":"../node_modules/@material-ui/icons/utils/createSvgIcon.js"}],"../node_modules/@material-ui/icons/Event.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement("path", {
+  d: "M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+}), _react.default.createElement("path", {
+  fill: "none",
+  d: "M0 0h24v24H0z"
+})), 'Event');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"../node_modules/@babel/runtime/helpers/interopRequireDefault.js","react":"../node_modules/react/index.js","./utils/createSvgIcon":"../node_modules/@material-ui/icons/utils/createSvgIcon.js"}],"../node_modules/@material-ui/icons/PowerOff.js":[function(require,module,exports) {
@@ -97192,6 +97214,7 @@ var List_1 = require("@material-ui/core/List");
 var core_1 = require("@material-ui/core");
 var Home_1 = require("@material-ui/icons/Home");
 var ChildCare_1 = require("@material-ui/icons/ChildCare");
+var Event_1 = require("@material-ui/icons/Event");
 var PowerOff_1 = require("@material-ui/icons/PowerOff");
 var history_ts_1 = require("../router/history.ts");
 var index_ts_1 = require("../../stores/index.ts");
@@ -97215,7 +97238,7 @@ var default_1 = /** @class */function (_super) {
                 }
             };
         };
-        _this.links = [{ icon: React.createElement(Home_1.default, null), page: history_ts_1.PAGES.HOME, name: "Home" }, { icon: React.createElement(ChildCare_1.default, null), page: history_ts_1.PAGES.CHILD_MGMT, name: "Children", auth: true }];
+        _this.links = [{ icon: React.createElement(Home_1.default, null), page: history_ts_1.PAGES.HOME, name: "Home" }, { icon: React.createElement(ChildCare_1.default, null), page: history_ts_1.PAGES.CHILD_MGMT, name: "Children", auth: true }, { icon: React.createElement(Event_1.default, null), page: history_ts_1.PAGES.NEW_PLAN, name: "New Plan", auth: true }];
         return _this;
     }
     default_1.prototype.render = function () {
@@ -97234,7 +97257,7 @@ var default_1 = /** @class */function (_super) {
     return default_1;
 }(React.Component);
 exports.default = default_1;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","mobx":"../node_modules/mobx/lib/mobx.module.js","mobx-react":"../node_modules/mobx-react/index.module.js","@material-ui/core/Drawer":"../node_modules/@material-ui/core/Drawer/index.js","@material-ui/core/List":"../node_modules/@material-ui/core/List/index.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","@material-ui/icons/Home":"../node_modules/@material-ui/icons/Home.js","@material-ui/icons/ChildCare":"../node_modules/@material-ui/icons/ChildCare.js","@material-ui/icons/PowerOff":"../node_modules/@material-ui/icons/PowerOff.js","../router/history.ts":"components/router/history.ts","../../stores/index.ts":"stores/index.ts","../../db/index.ts":"db/index.ts"}],"../node_modules/@material-ui/icons/AccountCircle.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","mobx":"../node_modules/mobx/lib/mobx.module.js","mobx-react":"../node_modules/mobx-react/index.module.js","@material-ui/core/Drawer":"../node_modules/@material-ui/core/Drawer/index.js","@material-ui/core/List":"../node_modules/@material-ui/core/List/index.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","@material-ui/icons/Home":"../node_modules/@material-ui/icons/Home.js","@material-ui/icons/ChildCare":"../node_modules/@material-ui/icons/ChildCare.js","@material-ui/icons/Event":"../node_modules/@material-ui/icons/Event.js","@material-ui/icons/PowerOff":"../node_modules/@material-ui/icons/PowerOff.js","../router/history.ts":"components/router/history.ts","../../stores/index.ts":"stores/index.ts","../../db/index.ts":"db/index.ts"}],"../node_modules/@material-ui/icons/AccountCircle.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -97289,11 +97312,11 @@ var NavBar = /** @class */function (_super) {
             if (internalState.customHeader !== "") {
                 return internalState.customHeader;
             }
-            switch (history_ts_1.state.currentPage) {
+            switch (history_ts_1.historyState.currentPage) {
                 case history_ts_1.PAGES.HOME:
                     return "";
                 default:
-                    return history_ts_1.state.currentPage;
+                    return history_ts_1.historyState.currentPage;
             }
         },
         enumerable: true,
@@ -97415,9 +97438,14 @@ var SvgIcon_1 = require("@material-ui/core/SvgIcon");
 exports.default = function (props) {
     return React.createElement(SvgIcon_1.default, tslib_1.__assign({}, props), React.createElement("g", { style: { transform: "scale(0.6)" } }, React.createElement("path", { d: "m20.1 17.5h16.2q0.3 1.5 0.3 2.9 0 4.8-2 8.7t-5.8 5.9-8.7 2.1q-3.5 0-6.6-1.3t-5.5-3.7-3.7-5.4-1.3-6.7 1.3-6.7 3.7-5.4 5.5-3.7 6.6-1.3q6.7 0 11.5 4.4l-4.6 4.5q-2.8-2.6-6.9-2.6-2.8 0-5.3 1.4t-3.9 4-1.4 5.4 1.4 5.4 3.9 4 5.3 1.4q2 0 3.6-0.5t2.7-1.3 1.8-1.9 1.2-1.9 0.5-1.8h-9.8v-5.9z" })));
 };
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","@material-ui/core/SvgIcon":"../node_modules/@material-ui/core/SvgIcon/index.js"}],"assets/City-of-Toronto-Logo.gif":[function(require,module,exports) {
-module.exports = "/City-of-Toronto-Logo.5d8211d6.gif";
-},{}],"components/elements/Login.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","@material-ui/core/SvgIcon":"../node_modules/@material-ui/core/SvgIcon/index.js"}],"assets/logo_v01.png":[function(require,module,exports) {
+module.exports = "/logo_v01.34b57e3f.png";
+},{}],"assets/index.ts":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.logoImageUrl = require("./logo_v01.png");
+},{"./logo_v01.png":"assets/logo_v01.png"}],"components/elements/Login.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -97427,6 +97455,7 @@ var core_1 = require("@material-ui/core");
 var Google_tsx_1 = require("../Icons/Google.tsx");
 var index_ts_1 = require("../../db/index.ts");
 var Notifier_tsx_1 = require("../layouts/Notifier.tsx");
+var index_ts_2 = require("../../assets/index.ts");
 var Login = /** @class */function (_super) {
     tslib_1.__extends(Login, _super);
     function Login() {
@@ -97475,7 +97504,7 @@ var Login = /** @class */function (_super) {
         } else if (mode === "signup") {
             switchBtnTxt = "I have an account";
         }
-        return React.createElement(core_1.Card, null, React.createElement(core_1.CardHeader, { title: "Child Activity Manager" }), React.createElement(core_1.CardMedia, { style: { height: "150px", backgroundSize: "contain" }, image: require("../../assets/City-of-Toronto-Logo.gif") }), React.createElement(core_1.CardContent, null, React.createElement(core_1.TextField, { fullWidth: true, label: "Email", placeholder: "Email", value: email, onChange: function onChange(e) {
+        return React.createElement(core_1.Card, null, React.createElement(core_1.CardMedia, { style: { height: "150px", backgroundSize: "contain" }, image: index_ts_2.logoImageUrl }), React.createElement(core_1.CardContent, null, React.createElement(core_1.TextField, { fullWidth: true, label: "Email", placeholder: "Email", value: email, onChange: function onChange(e) {
                 return _this.setState({ email: e.currentTarget.value });
             } }), React.createElement(core_1.TextField, { fullWidth: true, type: "password", label: "Password", placeholder: "Password", value: password, onChange: function onChange(e) {
                 return _this.setState({ password: e.currentTarget.value });
@@ -97494,7 +97523,7 @@ var Login = /** @class */function (_super) {
     return Login;
 }(React.Component);
 exports.default = Login;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","../Icons/Google.tsx":"components/Icons/Google.tsx","../../db/index.ts":"db/index.ts","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../../assets/City-of-Toronto-Logo.gif":"assets/City-of-Toronto-Logo.gif"}],"../node_modules/moment/moment.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","../Icons/Google.tsx":"components/Icons/Google.tsx","../../db/index.ts":"db/index.ts","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../../assets/index.ts":"assets/index.ts"}],"../node_modules/moment/moment.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 //! moment.js
@@ -107060,9 +107089,13 @@ var MainMenu = /** @class */function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     MainMenu.prototype.render = function () {
-        return React.createElement(core_1.Grid, { container: true, justify: "space-around", alignItems: "center", alignContent: "space-between" }, React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined", onClick: function onClick() {
+        return React.createElement(core_1.Grid, { container: true, justify: "space-around", alignItems: "center", alignContent: "space-between" }, React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined", color: history_ts_1.historyState.currentPage === history_ts_1.PAGES.HOME ? "primary" : "default", onClick: function onClick() {
+                return history_ts_1.goTo(history_ts_1.PAGES.HOME);
+            } }, "Agenda")), React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined", color: history_ts_1.historyState.currentPage === history_ts_1.PAGES.CHILD_MGMT ? "primary" : "default", onClick: function onClick() {
                 return history_ts_1.goTo(history_ts_1.PAGES.CHILD_MGMT);
-            } }, "Children")), React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined" }, "+ Plan")), React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined" }, "My Day")));
+            } }, "Children")), React.createElement(core_1.Grid, { item: true, xs: 3 }, React.createElement(core_1.Button, { fullWidth: true, variant: "outlined", color: history_ts_1.historyState.currentPage === history_ts_1.PAGES.NEW_PLAN ? "primary" : "default", onClick: function onClick() {
+                return history_ts_1.goTo(history_ts_1.PAGES.NEW_PLAN);
+            } }, "+ Plan")));
     };
     return MainMenu;
 }(React.Component);
@@ -107205,18 +107238,98 @@ var tslib_1 = require("tslib");
 var React = require("react");
 var react_router_1 = require("react-router");
 var ChildManager_tsx_1 = require("../elements/ChildManager.tsx");
+var index_ts_1 = require("../../stores/index.ts");
+var history_ts_1 = require("../router/history.ts");
+var MainMenu_tsx_1 = require("../elements/MainMenu.tsx");
 var ChildrenPage = /** @class */function (_super) {
     tslib_1.__extends(ChildrenPage, _super);
     function ChildrenPage() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    ChildrenPage.prototype.componentWillMount = function () {
+        if (!index_ts_1.default.isLoggedIn) {
+            history_ts_1.goTo(history_ts_1.PAGES.HOME);
+        }
+    };
     ChildrenPage.prototype.render = function () {
-        return React.createElement(ChildManager_tsx_1.default, null);
+        return [React.createElement(MainMenu_tsx_1.default, { key: "menu" }), React.createElement(ChildManager_tsx_1.default, { key: "item" })];
     };
     return ChildrenPage;
 }(react_router_1.Route);
 exports.default = ChildrenPage;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/es/index.js","../elements/ChildManager.tsx":"components/elements/ChildManager.tsx"}],"components/router/index.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/es/index.js","../elements/ChildManager.tsx":"components/elements/ChildManager.tsx","../../stores/index.ts":"stores/index.ts","../router/history.ts":"components/router/history.ts","../elements/MainMenu.tsx":"components/elements/MainMenu.tsx"}],"components/elements/NewPlan.tsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var React = require("react");
+var moment = require("moment");
+var core_1 = require("@material-ui/core");
+var index_ts_1 = require("../../stores/index.ts");
+function ChildSelector(props) {
+    console.log(props.selected);
+    return React.createElement(core_1.List, { dense: true }, index_ts_1.default.children.map(function (child) {
+        return React.createElement(core_1.ListItem, { key: child.child_id, role: undefined, dense: true, button: true, selected: props.selected.indexOf(child.child_id) > -1, onClick: function onClick() {
+                return props.onSelect(child);
+            } }, React.createElement(core_1.Checkbox, { checked: props.selected.indexOf(child.child_id) > -1, tabIndex: -1, disableRipple: true, style: { height: "100%" } }), React.createElement(core_1.ListItemText, { primary: child.name }), props.selected.indexOf(child.child_id));
+    }));
+}
+var NewPlan = /** @class */function (_super) {
+    tslib_1.__extends(NewPlan, _super);
+    function NewPlan() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.state = { childrenSelected: [], activityTypes: [], dateFrom: moment(), dateTo: moment().add(7, "days") };
+        return _this;
+    }
+    NewPlan.prototype.render = function () {
+        var _this = this;
+        var state = this.state;
+        return React.createElement(core_1.Card, null, React.createElement(core_1.CardHeader, { title: "New Weekly Plan" }), React.createElement(core_1.CardContent, null, React.createElement(ChildSelector, { selected: state.childrenSelected, onSelect: function onSelect(child) {
+                var selectedIdx = state.childrenSelected.indexOf(child.child_id);
+                if (selectedIdx > -1) {
+                    var newSel = state.childrenSelected.slice();
+                    newSel.splice(selectedIdx, 1);
+                    return _this.setState({
+                        childrenSelected: newSel
+                    });
+                } else {
+                    return _this.setState({
+                        childrenSelected: state.childrenSelected.concat([child.child_id])
+                    });
+                }
+            } })));
+    };
+    return NewPlan;
+}(React.Component);
+exports.default = NewPlan;
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","../../stores/index.ts":"stores/index.ts"}],"components/pages/NewPlanPage.tsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var React = require("react");
+var react_router_1 = require("react-router");
+var history_ts_1 = require("../router/history.ts");
+var index_ts_1 = require("../../stores/index.ts");
+var NewPlan_tsx_1 = require("../elements/NewPlan.tsx");
+var MainMenu_tsx_1 = require("../elements/MainMenu.tsx");
+var NewPlanPage = /** @class */function (_super) {
+    tslib_1.__extends(NewPlanPage, _super);
+    function NewPlanPage() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    NewPlanPage.prototype.componentWillMount = function () {
+        if (!index_ts_1.default.isLoggedIn) {
+            history_ts_1.goTo(history_ts_1.PAGES.HOME);
+        }
+    };
+    NewPlanPage.prototype.render = function () {
+        return [React.createElement(MainMenu_tsx_1.default, { key: "menu" }), React.createElement(NewPlan_tsx_1.default, { key: "item" })];
+    };
+    return NewPlanPage;
+}(react_router_1.Route);
+exports.default = NewPlanPage;
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/es/index.js","../router/history.ts":"components/router/history.ts","../../stores/index.ts":"stores/index.ts","../elements/NewPlan.tsx":"components/elements/NewPlan.tsx","../elements/MainMenu.tsx":"components/elements/MainMenu.tsx"}],"components/router/index.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107233,18 +107346,19 @@ var NotFoundPage_tsx_1 = require("../pages/NotFoundPage.tsx");
 var ExamplePage_tsx_1 = require("../pages/ExamplePage.tsx");
 var IndexPage_tsx_1 = require("../pages/IndexPage.tsx");
 var ChildrenPage_tsx_1 = require("../pages/ChildrenPage.tsx");
+var NewPlanPage_tsx_1 = require("../pages/NewPlanPage.tsx");
 var AppRouter = /** @class */function (_super) {
     tslib_1.__extends(AppRouter, _super);
     function AppRouter() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     AppRouter.prototype.render = function () {
-        return React.createElement(ErrorBoundary_tsx_1.default, null, React.createElement(NavBar_tsx_1.default, null), React.createElement(SideBar_tsx_1.default, null), React.createElement(ErrorBoundary_tsx_1.default, null, React.createElement("div", { style: { marginTop: "5%" } }, React.createElement(react_router_1.Router, { history: history_1.history }, React.createElement(react_router_1.Switch, null, React.createElement(IndexPage_tsx_1.default, { path: routes_enums_ts_1.PAGES.HOME, exact: true }), React.createElement(ChildrenPage_tsx_1.default, { path: routes_enums_ts_1.PAGES.CHILD_MGMT, exact: true }), React.createElement(ExamplePage_tsx_1.default, { path: "/example" }), React.createElement(NotFoundPage_tsx_1.default, { path: "*" }))))), React.createElement(Notifier_tsx_1.default, null));
+        return React.createElement(ErrorBoundary_tsx_1.default, null, React.createElement(NavBar_tsx_1.default, null), React.createElement(SideBar_tsx_1.default, null), React.createElement(ErrorBoundary_tsx_1.default, null, React.createElement("div", { style: { marginTop: "5%" } }, React.createElement(react_router_1.Router, { history: history_1.history }, React.createElement(react_router_1.Switch, null, React.createElement(IndexPage_tsx_1.default, { path: routes_enums_ts_1.PAGES.HOME, exact: true }), React.createElement(ChildrenPage_tsx_1.default, { path: routes_enums_ts_1.PAGES.CHILD_MGMT, exact: true }), React.createElement(NewPlanPage_tsx_1.default, { path: routes_enums_ts_1.PAGES.NEW_PLAN, exact: true }), React.createElement(ExamplePage_tsx_1.default, { path: "/example" }), React.createElement(NotFoundPage_tsx_1.default, { path: "*" }))))), React.createElement(Notifier_tsx_1.default, null));
     };
     return AppRouter;
 }(React.Component);
 exports.default = AppRouter;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/es/index.js","./history":"components/router/history.ts","../layouts/NavBar.tsx":"components/layouts/NavBar.tsx","../layouts/ErrorBoundary.tsx":"components/layouts/ErrorBoundary.tsx","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../layouts/SideBar.tsx":"components/layouts/SideBar.tsx","./routes.enums.ts":"components/router/routes.enums.ts","../pages/NotFoundPage.tsx":"components/pages/NotFoundPage.tsx","../pages/ExamplePage.tsx":"components/pages/ExamplePage.tsx","../pages/IndexPage.tsx":"components/pages/IndexPage.tsx","../pages/ChildrenPage.tsx":"components/pages/ChildrenPage.tsx"}],"App.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/es/index.js","./history":"components/router/history.ts","../layouts/NavBar.tsx":"components/layouts/NavBar.tsx","../layouts/ErrorBoundary.tsx":"components/layouts/ErrorBoundary.tsx","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../layouts/SideBar.tsx":"components/layouts/SideBar.tsx","./routes.enums.ts":"components/router/routes.enums.ts","../pages/NotFoundPage.tsx":"components/pages/NotFoundPage.tsx","../pages/ExamplePage.tsx":"components/pages/ExamplePage.tsx","../pages/IndexPage.tsx":"components/pages/IndexPage.tsx","../pages/ChildrenPage.tsx":"components/pages/ChildrenPage.tsx","../pages/NewPlanPage.tsx":"components/pages/NewPlanPage.tsx"}],"App.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107301,7 +107415,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '34335' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '46307' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

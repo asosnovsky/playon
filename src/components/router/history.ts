@@ -4,7 +4,7 @@ import { PAGES } from "./routes.enums";
 export { PAGES }
 
 export const history = createBrowserHistory();
-export const state = observable({
+export const historyState = observable({
     currentPage: window.location.pathname,
 })
 
@@ -24,5 +24,5 @@ export function goHomeOrBack() {
 }
 
 history.listen( location => {
-    state.currentPage = location.pathname;
+    historyState.currentPage = location.pathname;
 });
