@@ -1,4 +1,6 @@
 __pycache__
-node_module
+node_modules
 .vscode
 src/secrets/*
+dist
+.cache
