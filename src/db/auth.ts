@@ -2,6 +2,7 @@ import {firebase, auth} from "./app";
 import Notifier from '@/components/layouts/Notifier';
 import stores from '@/stores';
 import { children } from '@/db/objects';
+import { goTo, PAGES } from '@/components/router/history';
 
 const providers = {
     google: new firebase.auth.GoogleAuthProvider(),
@@ -26,6 +27,7 @@ auth.onAuthStateChanged( async user => {
         if (!first) {
             Notifier.notify("You have been logged out.")
         }
+        goTo(PAGES.HOME);
     }
     first = false;
 } )

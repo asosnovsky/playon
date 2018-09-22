@@ -97037,6 +97037,7 @@ var app_1 = require("./app");
 var Notifier_tsx_1 = require("../components/layouts/Notifier.tsx");
 var index_ts_1 = require("../stores/index.ts");
 var objects_ts_1 = require("./objects.ts");
+var history_ts_1 = require("../components/router/history.ts");
 var providers = {
     google: new app_1.firebase.auth.GoogleAuthProvider()
 };
@@ -97064,6 +97065,7 @@ app_1.auth.onAuthStateChanged(function (user) {
                     if (!first) {
                         Notifier_tsx_1.default.notify("You have been logged out.");
                     }
+                    history_ts_1.goTo(history_ts_1.PAGES.HOME);
                     _a.label = 3;
                 case 3:
                     first = false;
@@ -97099,7 +97101,7 @@ function signupWithEmail(email, password) {
     });
 }
 exports.signupWithEmail = signupWithEmail;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","./app":"db/app.ts","../components/layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../stores/index.ts":"stores/index.ts","./objects.ts":"db/objects.ts"}],"db/index.ts":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","./app":"db/app.ts","../components/layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../stores/index.ts":"stores/index.ts","./objects.ts":"db/objects.ts","../components/router/history.ts":"components/router/history.ts"}],"db/index.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107112,6 +107114,30 @@ var ChildMaker = /** @class */function (_super) {
     function ChildMaker() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = { newName: "", newDob: moment().subtract(10, "years") };
+        _this.createChild = function () {
+            var _a = _this,
+                props = _a.props,
+                state = _a.state;
+            if (state.newName.length < 2) {
+                return Notifier_tsx_1.default.notify("Please enter valid name");
+            }
+            if (Math.abs(state.newDob.diff(moment(), "y")) > 25) {
+                console.error(state.newDob.diff(moment(), "y"));
+                return Notifier_tsx_1.default.notify("Please enter a valid age < 25");
+            }
+            index_ts_1.default.addChild({
+                name: state.newName,
+                date_of_birth: {
+                    day: state.newDob.day(),
+                    month: state.newDob.month(),
+                    year: state.newDob.year()
+                }
+            });
+            _this.setState({
+                newName: "", newDob: moment().subtract(10, "years")
+            });
+            props.onClose();
+        };
         return _this;
     }
     ChildMaker.prototype.render = function () {
@@ -107119,27 +107145,13 @@ var ChildMaker = /** @class */function (_super) {
         var _a = this,
             props = _a.props,
             state = _a.state;
-        return React.createElement(core_1.Dialog, { open: props.open, onClose: props.onClose }, React.createElement(core_1.DialogTitle, null, "Add New Child Information"), React.createElement(core_1.DialogContent, null, React.createElement(core_1.TextField, { label: "Name", placeholder: "Name", value: state.newName, onChange: function onChange(e) {
+        return React.createElement(core_1.Dialog, { open: props.open, onClose: props.onClose }, React.createElement(core_1.DialogTitle, null, "Add New Child Information"), React.createElement(core_1.DialogContent, null, React.createElement("form", { onSubmit: function onSubmit(e) {
+                e.preventDefault();_this.createChild();
+            } }, React.createElement(core_1.TextField, { fullWidth: true, label: "Name", placeholder: "Name", value: state.newName, onChange: function onChange(e) {
                 return _this.setState({ newName: e.currentTarget.value });
-            } }), React.createElement(core_1.TextField, { type: "date", label: "Date of Birth", value: state.newDob.format("YYYY-MM-DD"), onChange: function onChange(e) {
+            } }), React.createElement(core_1.TextField, { fullWidth: true, type: "date", label: "Date of Birth", value: state.newDob.format("YYYY-MM-DD"), onChange: function onChange(e) {
                 _this.setState({ newDob: moment(e.currentTarget.value, "YYYY-MM-DD") });
-            } })), React.createElement(core_1.DialogActions, null, React.createElement(core_1.Button, { onClick: props.onClose }, "Cancel"), React.createElement(core_1.Button, { onClick: function onClick() {
-                if (state.newName.length < 2) {
-                    return Notifier_tsx_1.default.notify("Please enter valid name");
-                }
-                if (Math.abs(state.newDob.diff(moment(), "y")) > 25) {
-                    console.error(state.newDob.diff(moment(), "y"));
-                    return Notifier_tsx_1.default.notify("Please enter a valid age < 25");
-                }
-                index_ts_1.default.addChild({
-                    name: state.newName,
-                    date_of_birth: {
-                        day: state.newDob.day(),
-                        month: state.newDob.month(),
-                        year: state.newDob.year()
-                    }
-                });
-            } }, "Add")));
+            } }))), React.createElement(core_1.DialogActions, null, React.createElement(core_1.Button, { onClick: props.onClose }, "Cancel"), React.createElement(core_1.Button, { onClick: this.createChild }, "Add")));
     };
     return ChildMaker;
 }(React.Component);
@@ -107154,6 +107166,15 @@ var moment = require("moment");
 var core_1 = require("@material-ui/core");
 var ChildMaker_tsx_1 = require("./ChildMaker.tsx");
 var index_ts_1 = require("../../stores/index.ts");
+var ChildCare_1 = require("@material-ui/icons/ChildCare");
+var mobx_react_1 = require("mobx-react");
+function getAge(_a) {
+    var day = _a.day,
+        month = _a.month,
+        year = _a.year;
+    var dob = moment(year + "-" + String(month).padStart(2, "0") + "-" + String(day).padStart(2, "0"), "YYYY-MM-DD");
+    return moment().diff(dob, "years");
+}
 var ChildManager = /** @class */function (_super) {
     tslib_1.__extends(ChildManager, _super);
     function ChildManager() {
@@ -107164,18 +107185,19 @@ var ChildManager = /** @class */function (_super) {
     ChildManager.prototype.render = function () {
         var _this = this;
         var state = this.state;
-        return React.createElement(core_1.Grid, { container: true, alignItems: "center", justify: "center" }, React.createElement(core_1.Table, null, React.createElement(core_1.TableHead, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, null, "Name"), React.createElement(core_1.TableCell, null, "Date of Birth"), React.createElement(core_1.TableCell, null))), React.createElement(core_1.TableBody, null, index_ts_1.default.children.map(function (child) {
-            return React.createElement(core_1.TableRow, { key: child.child_id }, React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, null, child.name), React.createElement(core_1.TableCell, null, moment(child.date_of_birth.year + "-" + String(child.date_of_birth.month).padStart(2, "0") + "-" + String(child.date_of_birth.day).padStart(2, "0"), "YYYY-MM-DD").format("d-MM/yy")), React.createElement(core_1.TableCell, null));
-        })), React.createElement(core_1.TableFooter, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, null, React.createElement(core_1.Button, { onClick: function onClick() {
+        return React.createElement(core_1.Grid, { container: true, alignItems: "center", justify: "center" }, React.createElement(core_1.Table, null, React.createElement(core_1.TableHead, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null, "Name"), React.createElement(core_1.TableCell, null, "Age"), React.createElement(core_1.TableCell, null))), React.createElement(core_1.TableBody, null, index_ts_1.default.children.map(function (child) {
+            return React.createElement(core_1.TableRow, { key: child.child_id }, React.createElement(core_1.TableCell, null, child.name), React.createElement(core_1.TableCell, null, getAge(child.date_of_birth)), React.createElement(core_1.TableCell, null));
+        })), React.createElement(core_1.TableFooter, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, { colSpan: 1 }, React.createElement(core_1.Button, { variant: "outlined", color: "primary", onClick: function onClick() {
                 return _this.setState({ openChildMaker: true });
-            } }, "Add New Child"))))), React.createElement(ChildMaker_tsx_1.default, { open: state.openChildMaker, onClose: function onClose() {
+            } }, React.createElement(ChildCare_1.default, null), "  +"))))), React.createElement(ChildMaker_tsx_1.default, { open: state.openChildMaker, onClose: function onClose() {
                 return _this.setState({ openChildMaker: false });
             } }));
     };
+    ChildManager = tslib_1.__decorate([mobx_react_1.observer], ChildManager);
     return ChildManager;
 }(React.Component);
 exports.default = ChildManager;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","./ChildMaker.tsx":"components/elements/ChildMaker.tsx","../../stores/index.ts":"stores/index.ts"}],"components/pages/ChildrenPage.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","./ChildMaker.tsx":"components/elements/ChildMaker.tsx","../../stores/index.ts":"stores/index.ts","@material-ui/icons/ChildCare":"../node_modules/@material-ui/icons/ChildCare.js","mobx-react":"../node_modules/mobx-react/index.module.js"}],"components/pages/ChildrenPage.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107279,7 +107301,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '42643' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '34335' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
