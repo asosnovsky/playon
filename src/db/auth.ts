@@ -5,18 +5,24 @@ import stores from '@/stores';
 const providers = {
     google: new firebase.auth.GoogleAuthProvider(),
 }
-providers.google.addScope("public_profile")
-providers.google.addScope("email")
 
+let first = true;
 auth.onAuthStateChanged( user => {
     if( user ) {
         stores.isLoggedIn = true;
     }   else    {
         stores.isLoggedIn = false;
+        if (!first) {
+            Notifier.notify("You have been logged out.")
+        }
     }
+    first = false;
 } )
 
 // Methods
+export function logOut() {
+    return auth.signOut();
+}
 export function loginWithGoogle() {
     return auth.signInWithPopup(providers.google);
 }
@@ -25,7 +31,7 @@ export function loginWithEmail(email: string, password: string) {
         Notifier.notify("Welcome!");
     } ).catch( err => {
         console.warn(err);
-        Notifier.notify("Login Failed!")
+        Notifier.notify(err.message)
     } );
 }
 export function signupWithEmail(email: string, password: string) {
@@ -33,6 +39,6 @@ export function signupWithEmail(email: string, password: string) {
         Notifier.notify("Welcome!");
     } ).catch( err => {
         console.warn(err);
-        Notifier.notify("Signup Failed!")
+        Notifier.notify(err.message)
     } );
 }

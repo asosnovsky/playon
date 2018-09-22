@@ -5,9 +5,11 @@ import {observer} from "mobx-react";
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import {ListItem, IconButton} from "@material-ui/core";
-import ArrowBack from "@material-ui/icons/ArrowBack";
 import Home from "@material-ui/icons/Home";
+import LogoutIcon from "@material-ui/icons/PowerOff";
 import { goHomeOrBack, PAGES, goTo } from "@/components/router/history";
+import stores from '@/stores';
+import { auth } from '@/db';
 
 export const state = observable({isOpen: false});
 
@@ -24,21 +26,21 @@ export default class extends React.Component {
         }
     }
     links = [
-        { icon: <Home/>, page: PAGES.HOME, },
+        { icon: <Home/>, page: PAGES.HOME, name: "Home" },
     ]
     render() {
         return <Drawer open={state.isOpen} onClose={_ => state.isOpen = false}>
             <List>
-                {window.location.pathname !== PAGES.HOME && <ListItem>
-                    <IconButton onClick={this.goTo(PAGES.HOME, false)}>
-                        <ArrowBack/>
-                    </IconButton>
-                </ListItem>}
                 {this.links.map( (link, idx) => <ListItem key={idx}>
                     <IconButton onClick={this.goTo(link.page)}>
                         {link.icon}
                     </IconButton>
                 </ListItem> )}
+                {stores.isLoggedIn && <ListItem>
+                    <IconButton onClick={() => auth.logOut()}>
+                        <LogoutIcon/>
+                    </IconButton>
+                </ListItem>}
             </List>
         </Drawer>
     }

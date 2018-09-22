@@ -4,13 +4,18 @@ import { Grid, Typography } from "@material-ui/core";
 import { observer } from 'mobx-react';
 import stores from '@/stores';
 import Login from '@/components/elements/Login';
+import Agenda from '@/components/elements/Agenda';
+import MainMenu from '@/components/elements/MainMenu';
 
 @observer
 export default class IndexPage extends Route {
 
     innerChild() {
         if (stores.isLoggedIn) {
-            return <Typography variant="headline">Home Page</Typography>
+            return [
+                <MainMenu key="menu"/>,
+                <Agenda key="agenda"/>
+            ]
         }   else    {
             return <Login/>
         }

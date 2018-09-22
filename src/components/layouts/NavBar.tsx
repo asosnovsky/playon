@@ -3,13 +3,13 @@ import * as React from "react";
 import { state as sidebarstate } from "./SideBar";
 import AppBar from "@material-ui/core/AppBar";
 import Button from "@material-ui/core/Button";
-import Dialog from "@material-ui/core/Dialog";
 import Toolbar from "@material-ui/core/Toolbar";
-import { Typography, DialogContent, DialogTitle } from "@material-ui/core";
+import { Typography, IconButton } from "@material-ui/core";
 import { state, PAGES, goTo } from "@/components/router/history";
 import { observer } from "mobx-react";
-import { computed, toJS, observable } from "mobx";
-import LinkIcon from "@material-ui/icons/Adjust";
+import { computed, observable } from "mobx";
+import UserIcon from "@material-ui/icons/AccountCircle";
+import stores from '@/stores';
 
 const internalState = observable({
     showQR: false,
@@ -36,7 +36,9 @@ export default class NavBar extends React.Component<{}> {
     render() {
         return <AppBar position="sticky" color="primary">
             <Toolbar>
-                <Button color="inherit" onClick={_ => sidebarstate.isOpen = true}>☰</Button>
+                <Button mini color="inherit" onClick={_ => sidebarstate.isOpen = true}>
+                    {stores.isLoggedIn ? <UserIcon/> : "☰"}
+                </Button>
                 <Typography color="inherit" variant="title">
                     {this.title}
                 </Typography>

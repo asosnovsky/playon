@@ -40,19 +40,32 @@ export default class Login extends React.Component<{}, IState> {
         }   else if (mode === "signup") {
             actionBtnTxt = "Sign Up";
         }
+        let switchBtnTxt: string = "N/A";
+        if (mode === "signin") {
+            switchBtnTxt = "Create Account";
+        }   else    if (mode === "signup") {
+            switchBtnTxt = "I have an account";
+        }
         return <Card>
             <CardHeader title="Child Activity Manager"/>
             <CardMedia style={{ height: "150px", backgroundSize: "contain" }} image={require("../../assets/City-of-Toronto-Logo.gif")}/>
             <CardContent>
-                <TextField label="Email" placeholder="Email" value={email} onChange={ e => this.setState({ email: e.currentTarget.value }) } />
-                <TextField type="password" label="Password" placeholder="Password" value={password} onChange={ e => this.setState({ password: e.currentTarget.value }) }/>
+                <TextField fullWidth label="Email" placeholder="Email" value={email} onChange={ e => this.setState({ email: e.currentTarget.value }) } />
+                <TextField fullWidth type="password" label="Password" placeholder="Password" value={password} onChange={ e => this.setState({ password: e.currentTarget.value }) }/>
                 {mode === "signup" &&
-                    <TextField type="password" label="Repeat Password" placeholder="Repeat Password" value={repeatPassword} onChange={ e => this.setState({ repeatPassword: e.currentTarget.value }) }/>
+                    <TextField fullWidth type="password" label="Repeat Password" placeholder="Repeat Password" value={repeatPassword} onChange={ e => this.setState({ repeatPassword: e.currentTarget.value }) }/>
                 }
             </CardContent>
             <CardActions>
-                <Button>{actionBtnTxt}</Button>
-                <IconButton onClick={ e => {
+                <Button color="primary" variant="contained">{actionBtnTxt}</Button>
+                <Button variant="outlined" onClick={ () => {
+                    this.setState({
+                        mode: mode === "signin" ? "signup" : "signin",
+                        repeatPassword: "",
+                        password: "",
+                    })
+                }}>{switchBtnTxt}</Button>
+                <IconButton color="primary" onClick={ e => {
                     auth.loginWithGoogle();
                 } }><Google/></IconButton>
             </CardActions>
