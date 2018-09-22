@@ -1,6 +1,6 @@
 interface Activity {
     act_id: UUID;
-    int_id: UUID;
+    inst_id: UUID;
     category: string;
     sub_category: string;
     location: {
@@ -22,7 +22,7 @@ interface Activity {
 }
 
 interface Institution {
-    int_id: UUID;
+    inst_id: UUID;
     name: string;
     location: {
         lat: number; 
