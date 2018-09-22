@@ -10,3 +10,4 @@ const app = firebase.initializeApp(secrets.firebase)
 export default app;
 export const database = app.database();
 export const auth = app.auth();
+export {firebase};

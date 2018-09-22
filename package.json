@@ -4,6 +4,7 @@
     "@types/jest": "^23.3.1",
     "@types/mocha": "^5.2.5",
     "@types/muicss": "^0.9.1",
+    "@types/node": "^10.10.3",
     "@types/react": "^16.4.13",
     "@types/react-addons-test-utils": "^0.14.22",
     "@types/react-dom": "^16.0.7",
