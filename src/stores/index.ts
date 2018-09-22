@@ -1,5 +1,5 @@
 import { observable, action } from "mobx";
-import { children } from '@/db';
+import { children, auth } from '@/db';
 import Notifier from '@/components/layouts/Notifier';
 
 
@@ -10,6 +10,7 @@ class ApplicationState {
 
     @action async addChild(child: Child) {
         const newChildDoc = children.doc();
+        child.parent_id = this.userId;
         await newChildDoc.set(child);
         this.children.push({
             child_id: newChildDoc.id,
@@ -19,16 +20,18 @@ class ApplicationState {
         return newChildDoc;
     }
 
-    @action async updateChild(child: Child & { child_id: string }) {
+    @action async updateChild(child: Child) {
         if (!('child_id' in child)) {
             Notifier.notify("Error: MCI01");
             throw new Error("Missing Child Id");
         }
+        child.parent_id = this.userId;
         const newChildDoc = children.doc(child.child_id);
         await newChildDoc.set(child);
         for (const idx in this.children) {
             if (this.children.hasOwnProperty(idx)) {
                 const c = this.children[idx];
+                c.parent_id = this.userId;
                 c.date_of_birth = child.date_of_birth;
                 c.name = child.name;
                 break;

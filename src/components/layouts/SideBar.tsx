@@ -11,6 +11,7 @@ import LogoutIcon from "@material-ui/icons/PowerOff";
 import { goHomeOrBack, PAGES, goTo } from "@/components/router/history";
 import stores from '@/stores';
 import { auth } from '@/db';
+import applicatoinState from '@/stores';
 
 export const state = observable({isOpen: false});
 
@@ -28,12 +29,12 @@ export default class extends React.Component {
     }
     links = [
         { icon: <HomeIcon/>, page: PAGES.HOME, name: "Home" },
-        { icon: <ChildIcon/>, page: PAGES.CHILD_MGMT, name: "Children" },
+        { icon: <ChildIcon/>, page: PAGES.CHILD_MGMT, name: "Children", auth: true },
     ]
     render() {
         return <Drawer open={state.isOpen} onClose={_ => state.isOpen = false}>
             <List>
-                {this.links.map( (link, idx) => <ListItem key={idx}>
+                {this.links.filter( link => applicatoinState.isLoggedIn ? true : !link.auth ).map( (link, idx) => <ListItem key={idx}>
                     <IconButton onClick={this.goTo(link.page)}>
                         {link.icon}
                     </IconButton>

@@ -1,17 +1,28 @@
 import {firebase, auth} from "./app";
 import Notifier from '@/components/layouts/Notifier';
 import stores from '@/stores';
+import { children } from '@/db/objects';
 
 const providers = {
     google: new firebase.auth.GoogleAuthProvider(),
 }
 
 let first = true;
-auth.onAuthStateChanged( user => {
+auth.onAuthStateChanged( async user => {
     if( user ) {
         stores.isLoggedIn = true;
+        stores.userId = user.uid;
+        stores.children = [];
+        const remoteChildrenObj = await children.where("parent_id", '==', user.uid).get();
+        remoteChildrenObj.docs.forEach( doc => {
+            stores.children.push({
+                ...doc.data() as any,
+                child_id: doc.id,
+            });
+        } );
     }   else    {
         stores.isLoggedIn = false;
+        stores.userId = null;
         if (!first) {
             Notifier.notify("You have been logged out.")
         }

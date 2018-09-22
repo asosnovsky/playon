@@ -39,6 +39,7 @@ interface Institution {
 
 interface Child {
     child_id?: UUID;
+    parent_id?: UUID;
     name: string;
     date_of_birth: DateObject;
 }

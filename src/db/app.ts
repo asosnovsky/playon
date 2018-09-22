@@ -8,5 +8,6 @@ const app = firebase.initializeApp(secrets.firebase)
 
 export default app;
 export const database = app.firestore();
+            database.settings({ timestampsInSnapshots: true });
 export const auth = app.auth();
 export {firebase};
