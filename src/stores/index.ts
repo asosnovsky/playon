@@ -40,6 +40,13 @@ class ApplicationState {
         Notifier.notify("New Child Information Updated!");
         return newChildDoc;
     }
+
+    @action async removeChild(childId: string) {
+        await children.doc(childId).delete();
+        this.children = this.children.filter( c => c.child_id !== childId );
+        Notifier.notify("New Child Information Updated!");
+        return;
+    }
 }
 
 

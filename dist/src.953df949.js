@@ -97192,11 +97192,29 @@ var ApplicationState = /** @class */function () {
             });
         });
     };
+    ApplicationState.prototype.removeChild = function (childId) {
+        return tslib_1.__awaiter(this, void 0, void 0, function () {
+            return tslib_1.__generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        return [4 /*yield*/, index_ts_1.children.doc(childId).delete()];
+                    case 1:
+                        _a.sent();
+                        this.children = this.children.filter(function (c) {
+                            return c.child_id !== childId;
+                        });
+                        Notifier_tsx_1.default.notify("New Child Information Updated!");
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
     tslib_1.__decorate([mobx_1.observable], ApplicationState.prototype, "isLoggedIn", void 0);
     tslib_1.__decorate([mobx_1.observable], ApplicationState.prototype, "userId", void 0);
     tslib_1.__decorate([mobx_1.observable], ApplicationState.prototype, "children", void 0);
     tslib_1.__decorate([mobx_1.action], ApplicationState.prototype, "addChild", null);
     tslib_1.__decorate([mobx_1.action], ApplicationState.prototype, "updateChild", null);
+    tslib_1.__decorate([mobx_1.action], ApplicationState.prototype, "removeChild", null);
     return ApplicationState;
 }();
 var applicatoinState = new ApplicationState();
@@ -107189,7 +107207,29 @@ var ChildMaker = /** @class */function (_super) {
     return ChildMaker;
 }(React.Component);
 exports.default = ChildMaker;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../../stores/index.ts":"stores/index.ts"}],"components/elements/ChildManager.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","../layouts/Notifier.tsx":"components/layouts/Notifier.tsx","../../stores/index.ts":"stores/index.ts"}],"../node_modules/@material-ui/icons/Delete.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement("path", {
+  d: "M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+}), _react.default.createElement("path", {
+  fill: "none",
+  d: "M0 0h24v24H0z"
+})), 'Delete');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"../node_modules/@babel/runtime/helpers/interopRequireDefault.js","react":"../node_modules/react/index.js","./utils/createSvgIcon":"../node_modules/@material-ui/icons/utils/createSvgIcon.js"}],"components/elements/ChildManager.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107200,6 +107240,7 @@ var core_1 = require("@material-ui/core");
 var ChildMaker_tsx_1 = require("./ChildMaker.tsx");
 var index_ts_1 = require("../../stores/index.ts");
 var ChildCare_1 = require("@material-ui/icons/ChildCare");
+var Delete_1 = require("@material-ui/icons/Delete");
 var mobx_react_1 = require("mobx-react");
 function getAge(_a) {
     var day = _a.day,
@@ -107219,7 +107260,9 @@ var ChildManager = /** @class */function (_super) {
         var _this = this;
         var state = this.state;
         return React.createElement(core_1.Grid, { container: true, alignItems: "center", justify: "center" }, React.createElement(core_1.Table, null, React.createElement(core_1.TableHead, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null, "Name"), React.createElement(core_1.TableCell, null, "Age"), React.createElement(core_1.TableCell, null))), React.createElement(core_1.TableBody, null, index_ts_1.default.children.map(function (child) {
-            return React.createElement(core_1.TableRow, { key: child.child_id }, React.createElement(core_1.TableCell, null, child.name), React.createElement(core_1.TableCell, null, getAge(child.date_of_birth)), React.createElement(core_1.TableCell, null));
+            return React.createElement(core_1.TableRow, { key: child.child_id }, React.createElement(core_1.TableCell, null, child.name), React.createElement(core_1.TableCell, null, getAge(child.date_of_birth)), React.createElement(core_1.TableCell, null, React.createElement(core_1.Button, { mini: true, color: "secondary", onClick: function onClick() {
+                    return index_ts_1.default.removeChild(child.child_id);
+                } }, React.createElement(Delete_1.default, null))));
         })), React.createElement(core_1.TableFooter, null, React.createElement(core_1.TableRow, null, React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, null), React.createElement(core_1.TableCell, { colSpan: 1 }, React.createElement(core_1.Button, { variant: "outlined", color: "primary", onClick: function onClick() {
                 return _this.setState({ openChildMaker: true });
             } }, React.createElement(ChildCare_1.default, null), "  +"))))), React.createElement(ChildMaker_tsx_1.default, { open: state.openChildMaker, onClose: function onClose() {
@@ -107230,7 +107273,7 @@ var ChildManager = /** @class */function (_super) {
     return ChildManager;
 }(React.Component);
 exports.default = ChildManager;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","./ChildMaker.tsx":"components/elements/ChildMaker.tsx","../../stores/index.ts":"stores/index.ts","@material-ui/icons/ChildCare":"../node_modules/@material-ui/icons/ChildCare.js","mobx-react":"../node_modules/mobx-react/index.module.js"}],"components/pages/ChildrenPage.tsx":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","react":"../node_modules/react/index.js","moment":"../node_modules/moment/moment.js","@material-ui/core":"../node_modules/@material-ui/core/index.es.js","./ChildMaker.tsx":"components/elements/ChildMaker.tsx","../../stores/index.ts":"stores/index.ts","@material-ui/icons/ChildCare":"../node_modules/@material-ui/icons/ChildCare.js","@material-ui/icons/Delete":"../node_modules/@material-ui/icons/Delete.js","mobx-react":"../node_modules/mobx-react/index.module.js"}],"components/pages/ChildrenPage.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -107267,18 +107310,21 @@ var moment = require("moment");
 var core_1 = require("@material-ui/core");
 var index_ts_1 = require("../../stores/index.ts");
 function ChildSelector(props) {
-    console.log(props.selected);
     return React.createElement(core_1.List, { dense: true }, index_ts_1.default.children.map(function (child) {
         return React.createElement(core_1.ListItem, { key: child.child_id, role: undefined, dense: true, button: true, selected: props.selected.indexOf(child.child_id) > -1, onClick: function onClick() {
                 return props.onSelect(child);
-            } }, React.createElement(core_1.Checkbox, { checked: props.selected.indexOf(child.child_id) > -1, tabIndex: -1, disableRipple: true, style: { height: "100%" } }), React.createElement(core_1.ListItemText, { primary: child.name }), props.selected.indexOf(child.child_id));
+            } }, React.createElement(core_1.Checkbox, { checked: props.selected.indexOf(child.child_id) > -1, tabIndex: -1, disableRipple: true, style: { height: "100%" } }), React.createElement(core_1.ListItemText, { primary: child.name }), props.selected.indexOf(child.child_id) > -1);
     }));
 }
 var NewPlan = /** @class */function (_super) {
     tslib_1.__extends(NewPlan, _super);
     function NewPlan() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.state = { childrenSelected: [], activityTypes: [], dateFrom: moment(), dateTo: moment().add(7, "days") };
+        _this.state = {
+            childrenSelected: [], activityTypes: [],
+            dateFrom: moment(), dateTo: moment().add(7, "days"),
+            budgetLimit: 200
+        };
         return _this;
     }
     NewPlan.prototype.render = function () {

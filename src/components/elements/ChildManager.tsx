@@ -1,9 +1,10 @@
 import * as React from "react";
 import * as moment from "moment";
-import { Grid, Table, TableHead, TableRow, TableCell, TableBody, TableFooter, Button, TextField } from "@material-ui/core";
+import { Grid, Table, TableHead, TableRow, TableCell, TableBody, TableFooter, Button, TextField, IconButton } from "@material-ui/core";
 import ChildMaker from '@/components/elements/ChildMaker';
 import applicatoinState from '@/stores';
 import ChildIcon from "@material-ui/icons/ChildCare";
+import RemoveIcon from "@material-ui/icons/Delete";
 import { observer } from 'mobx-react';
 
 interface IProps {
@@ -35,7 +36,9 @@ export default class ChildManager extends React.Component<IProps, IState> {
                 {applicatoinState.children.map( child => <TableRow key={child.child_id}>
                     <TableCell>{child.name}</TableCell>
                     <TableCell>{getAge(child.date_of_birth)}</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>
+                        <Button mini  color="secondary" onClick={ () => applicatoinState.removeChild(child.child_id) }><RemoveIcon/></Button>
+                    </TableCell>
                 </TableRow>)}
             </TableBody>
             <TableFooter>

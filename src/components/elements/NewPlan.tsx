@@ -12,10 +12,10 @@ interface IState {
     }>;
     dateFrom: moment.Moment;
     dateTo: moment.Moment;
+    budgetLimit: number;
 }
 
 function ChildSelector(props: { selected: UUID[]; onSelect: (c: Child) => void; }) {
-    console.log(props.selected)
     return <List dense>
     {applicatoinState.children.map( child => (
       <ListItem
@@ -33,14 +33,18 @@ function ChildSelector(props: { selected: UUID[]; onSelect: (c: Child) => void; 
           style={{ height: "100%" }}
         />
         <ListItemText primary={child.name} />
-        {props.selected.indexOf(child.child_id)}
+        {props.selected.indexOf(child.child_id) > -1}
       </ListItem>
     ))}
   </List>
 }
 
 export default class NewPlan extends React.Component<IProps,IState> {
-    state: IState = { childrenSelected: [], activityTypes: [], dateFrom: moment(), dateTo: moment().add(7, "days") }
+    state: IState = {   
+        childrenSelected: [], activityTypes : [], 
+        dateFrom        : moment(), dateTo  : moment().add(7, "days"), 
+        budgetLimit: 200 
+    }
     render() {
         const {state} = this;
         return <Card>
