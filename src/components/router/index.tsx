@@ -12,6 +12,7 @@ import { PAGES } from "@/components/router/routes.enums";
 import NotFoundPage from '@/components/pages/NotFoundPage';
 import ExamplePage from '@/components/pages/ExamplePage';
 import IndexPage from '@/components/pages/IndexPage';
+import ChildrenPage from '@/components/pages/ChildrenPage';
 
 export default class AppRouter extends React.Component {
     public render() {
@@ -24,6 +25,7 @@ export default class AppRouter extends React.Component {
                         <Router history={history}>
                             <Switch>
                                 <IndexPage path={PAGES.HOME} exact/>
+                                <ChildrenPage path={PAGES.CHILD_MGMT} exact/>
 
                                 <ExamplePage path={"/example"}/>
                                 <NotFoundPage path="*"/>

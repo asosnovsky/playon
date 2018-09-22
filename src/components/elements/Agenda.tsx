@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { ReactAgenda, guid  } from 'react-agenda';
 
-require('moment/locale/fr.js'); // this is important for traduction purpose
+// require('moment/locale/en.js'); // this is important for traduction purpose
 
 interface IItem {
   _id            : string,
@@ -56,7 +56,7 @@ export default class Agenda extends React.Component<IProps, IState> {
     selected: [] as IItem[],
     cellHeight:30,
     showModal:false,
-    locale:"fr",
+    locale:"en",
     rowsPerHour:2,
     numberOfDays:4,
     startDate: new Date()

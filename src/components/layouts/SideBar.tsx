@@ -5,7 +5,8 @@ import {observer} from "mobx-react";
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import {ListItem, IconButton} from "@material-ui/core";
-import Home from "@material-ui/icons/Home";
+import HomeIcon from "@material-ui/icons/Home";
+import ChildIcon from "@material-ui/icons/ChildCare";
 import LogoutIcon from "@material-ui/icons/PowerOff";
 import { goHomeOrBack, PAGES, goTo } from "@/components/router/history";
 import stores from '@/stores';
@@ -26,7 +27,8 @@ export default class extends React.Component {
         }
     }
     links = [
-        { icon: <Home/>, page: PAGES.HOME, name: "Home" },
+        { icon: <HomeIcon/>, page: PAGES.HOME, name: "Home" },
+        { icon: <ChildIcon/>, page: PAGES.CHILD_MGMT, name: "Children" },
     ]
     render() {
         return <Drawer open={state.isOpen} onClose={_ => state.isOpen = false}>
