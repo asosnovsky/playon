@@ -57,7 +57,7 @@ export default class Login extends React.Component<{}, IState> {
                 }
             </CardContent>
             <CardActions>
-                <Button color="primary" variant="contained">{actionBtnTxt}</Button>
+                <Button color="primary" variant="contained" onClick={ this.onActionBtnClick }>{actionBtnTxt}</Button>
                 <Button variant="outlined" onClick={ () => {
                     this.setState({
                         mode: mode === "signin" ? "signup" : "signin",

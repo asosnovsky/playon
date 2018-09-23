@@ -1,0 +1,4358 @@
+[
+    {
+        "category": "Swimming",
+        "sub_category": "AL: Lifesaving Society Assistant Instructor",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "age_range": {
+            "min": 14,
+            "max": 14
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "AL: Swim Inst./Lifesaving Inst./Emergency First Aid Inst.",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 16,
+            "max": 16
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "After-School Program",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Ball Hockey",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 3,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Basketball",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 7
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet - Advanced",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "age_range": {
+            "min": 5,
+            "max": 6
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 6
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Club: Girls                                                 ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 9,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 45
+        },
+        "age_range": {
+            "min": 7,
+            "max": 10
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Karate: Beginner - White Belt                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 15
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Karate: Intermediate/Advanced                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 15
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drama                                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drama                                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Pickleball                                            ",
+        "contact_info": "416 392-0741",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Soccer                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 7
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Soccer                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Start to PLAY! Soccer                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Cheerleading                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 5,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 9,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Start to PLAY! Ball Hockey with Caregiver                   ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "After-School Program                                        ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Ball Hockey                                           ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Ball Hockey                                           ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 7
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 3,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Basketball                                            ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking                                                     ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking                                                     ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking                                                     ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Cooking                                                     ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 7
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet - Advanced                                    ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "age_range": {
+            "min": 5,
+            "max": 6
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 6
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Club: Girls                                                 ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 9,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 45
+        },
+        "age_range": {
+            "min": 7,
+            "max": 10
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Karate: Beginner - White Belt                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 15
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Karate: Intermediate/Advanced                               ",
+        "contact_info": "416 392-0741",
+        "weekday": 1,
+        "startTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 15
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drama                                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drama                                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 3,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Pickleball                                            ",
+        "contact_info": "416 392-0741",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Soccer                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 7
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "PLAY! Soccer                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 8,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Start to PLAY! Soccer                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Cheerleading                                                ",
+        "contact_info": "416 392-0741",
+        "weekday": 5,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 9,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Ready, Set, PLAY!                                           ",
+        "contact_info": "416 392-0741",
+        "weekday": 5,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Start to PLAY! Ball Hockey with Caregiver                   ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures                                       ",
+        "contact_info": "416 392-0741",
+        "weekday": 2,
+        "startTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery                                        ",
+        "contact_info": "416 392-0741",
+        "weekday": 4,
+        "startTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Young Artist                                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Ball Hockey                                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 8
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Basketball                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 9,
+            "max": 12
+        }
+    },
+    {
+        "category": "Fitness",
+        "sub_category": "Cardio Mix (Women)                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "age_range": {
+            "min": 10,
+            "max": 17
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "age_range": {
+            "min": 3,
+            "max": 3
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 3
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Club: Chess                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop - Advanced                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop - Beginner (Boys)                            ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 0
+        },
+        "age_range": {
+            "min": 10,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Line Dance                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Fitness",
+        "sub_category": "Pilates - Beginner                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Badminton with Family                                       ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 13,
+            "max": 18
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Soccer                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 45
+        },
+        "age_range": {
+            "min": 10,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Start to PLAY! Soccer                                       ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Gymnastics: Tumbling                                        ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Ready, Set, PLAY!                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Ready, Set, PLAY!                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery                                        ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 3,
+            "max": 4
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery with Caregiver                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 1,
+            "max": 2
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery with Caregiver                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery with Caregiver                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 4
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Photography                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 15
+        },
+        "age_range": {
+            "min": 18,
+            "max": 18
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Art Club                                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Young Artist                                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 6
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Volleyball                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 11,
+            "max": 12
+        }
+    },
+    {
+        "category": "Fitness",
+        "sub_category": "Yoga: Hatha                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 45
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Basketball                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 8
+        }
+    },
+    {
+        "category": "Fitness",
+        "sub_category": "Osteo Fit                                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 60,
+            "max": 60
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 3
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Ballet                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Club: Chess                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Guitar - Private                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Gymnastics: Tumbling Level 1 to 4                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 8,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop - Advanced                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Jazz                                                 ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Line Dance                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Line Dance - Advanced                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Music: Singing - Private                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Soccer                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 45
+        },
+        "age_range": {
+            "min": 10,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Ready, Set, PLAY!                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Ready, Set, PLAY!                                           ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery with Caregiver                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Discovery with Caregiver                         ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 4
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drawing                                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 6,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 15
+        },
+        "age_range": {
+            "min": 19,
+            "max": 19
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Art Club                                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Young Artist                                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 6
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Art Club                                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "SKILLS! Volleyball                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 30
+        },
+        "age_range": {
+            "min": 11,
+            "max": 12
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Adapted Swim Lessons: Ultra 1-2                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 12
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Adapted Swim Lessons: Ultra 3-4                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 12
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Adapted Swim Lessons: Ultra 3-4                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 12,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Adult Swim 2                                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "age_range": {
+            "min": 17,
+            "max": 17
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Aquafit: Arthritis                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 1,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "age_range": {
+            "min": 17,
+            "max": 17
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Aquafit: Arthritis                                          ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "age_range": {
+            "min": 17,
+            "max": 17
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Bronze Cross                                                ",
+        "contact_info": "416 392-0736",
+        "weekday": 0,
+        "startTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 13,
+            "max": 13
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Bronze Medallion and Emergency First Aid (CPR B)            ",
+        "contact_info": "416 392-0736",
+        "weekday": 0,
+        "startTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 13,
+            "max": 13
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Bronze Star and Basic First Aid (CPR A)                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 0,
+        "startTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 9,
+            "max": 9
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 1                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 1                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 1                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 1                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 2                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 2                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 2                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 3                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 3                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Guardian Swim 3                                             ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 0.5,
+            "max": 4.916666667
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 1: Penguin                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 1: Penguin                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 1: Penguin                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 1: Penguin                                   ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 2: Stingray                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 3: Otter                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Preschool Swim 3: Otter                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ranger Patrol                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 9,
+            "max": 9
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Rookie Patrol                                               ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 9,
+            "max": 9
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "SPLASH: 27 WEEK PROGRAM                                     ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 7,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 6,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Swim Lessons - Private                                      ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 1,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 1,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 0
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Tiny Tots Swim                                              ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 45
+        },
+        "age_range": {
+            "min": 1,
+            "max": 5
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 1 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 1 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 1 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 1 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 2 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 2 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 2 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 45
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 2 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 3 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 15
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 4 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 4 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 4 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 4 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 4 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 5 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 5 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 1,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 5 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 5 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 6 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 5,
+        "startTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 5,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 7 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 7 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 4,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 45
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 7 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 7 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 5,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 6,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 8 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 3,
+        "startTime": {
+            "hour": 4,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Swimming",
+        "sub_category": "Ultra Swim 9 - Small Group                                  ",
+        "contact_info": "416 392-0736",
+        "weekday": 6,
+        "startTime": {
+            "hour": 8,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "age_range": {
+            "min": 5,
+            "max": 16
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Pickleball: Recreational                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 55,
+            "max": 55
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Crafty Creations                                            ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Crafty Creations with Caregiver                             ",
+        "contact_info": "416 395-7966",
+        "weekday": 5,
+        "startTime": {
+            "hour": 10,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 2,
+            "max": 4
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Jewellery Making                                            ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 4,
+            "min": 30
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Dance Basics                                         ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 45
+        },
+        "age_range": {
+            "min": 4,
+            "max": 5
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Line Dance                                           ",
+        "contact_info": "416 395-7966",
+        "weekday": 3,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 60,
+            "max": 60
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures with Caregiver                        ",
+        "contact_info": "416 395-7966",
+        "weekday": 5,
+        "startTime": {
+            "hour": 9,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 10,
+            "min": 0
+        },
+        "age_range": {
+            "min": 1.5,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures with Caregiver                        ",
+        "contact_info": "416 395-7966",
+        "weekday": 3,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures                                       ",
+        "contact_info": "416 395-7966",
+        "weekday": 2,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 4
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures                                       ",
+        "contact_info": "416 395-7966",
+        "weekday": 4,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 3,
+            "max": 4
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Young Artist                                                ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Drawing                                                     ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 2,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 15
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Pickleball: Recreational                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 4,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 55,
+            "max": 55
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Pickleball: Recreational                                    ",
+        "contact_info": "416 392-0736",
+        "weekday": 2,
+        "startTime": {
+            "hour": 9,
+            "min": 15
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 15
+        },
+        "age_range": {
+            "min": 55,
+            "max": 55
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Line Dance                                           ",
+        "contact_info": "416 395-7966",
+        "weekday": 3,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "age_range": {
+            "min": 60,
+            "max": 60
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 0
+        },
+        "age_range": {
+            "min": 7,
+            "max": 12
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 395-7966",
+        "weekday": 6,
+        "startTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 1,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 9
+        }
+    },
+    {
+        "category": "Arts",
+        "sub_category": "Dance: Hip Hop                                              ",
+        "contact_info": "416 395-7966",
+        "weekday": 0,
+        "startTime": {
+            "hour": 11,
+            "min": 0
+        },
+        "endTime": {
+            "hour": 12,
+            "min": 0
+        },
+        "age_range": {
+            "min": 6,
+            "max": 12
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures with Caregiver                        ",
+        "contact_info": "416 395-7966",
+        "weekday": 1,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures with caregiver                        ",
+        "contact_info": "416 395-7966",
+        "weekday": 1,
+        "startTime": {
+            "hour": 9,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 11,
+            "min": 30
+        },
+        "age_range": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures                                       ",
+        "contact_info": "416 395-7966",
+        "weekday": 2,
+        "startTime": {
+            "hour": 12,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 4
+        }
+    },
+    {
+        "category": "General",
+        "sub_category": "Recreation Adventures                                       ",
+        "contact_info": "416 395-7966",
+        "weekday": 2,
+        "startTime": {
+            "hour": 12,
+            "min": 45
+        },
+        "endTime": {
+            "hour": 2,
+            "min": 45
+        },
+        "age_range": {
+            "min": 3,
+            "max": 4
+        }
+    },
+    {
+        "category": "Sports",
+        "sub_category": "Learn to Bike - private                                     ",
+        "contact_info": "416 392-0741",
+        "weekday": 6,
+        "startTime": {
+            "hour": 2,
+            "min": 30
+        },
+        "endTime": {
+            "hour": 3,
+            "min": 30
+        },
+        "age_range": {
+            "min": 1,
+            "max": 1
+        }
+    }
+]

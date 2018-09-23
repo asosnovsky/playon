@@ -13,7 +13,7 @@ export interface ReccomendActivityProps {
 }
 
 //Todo: pull from db correctly!
-let allData: Activity[];
+let allData: Activity[] = require("./activities.json")
 export async function reccomendActivity(data: ReccomendActivityProps) {
     if (!allData) {
         allData = []
@@ -42,6 +42,7 @@ export async function reccomendActivity(data: ReccomendActivityProps) {
             })
         } )
     }
+    console.log(allData)
     return allData.filter( doc => {
         const correctActive = data.activityTypes.filter( act => {
             return act.cat === doc.category
