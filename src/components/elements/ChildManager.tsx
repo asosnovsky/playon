@@ -29,6 +29,7 @@ export default class ChildManager extends React.Component<IProps, IState> {
                 <TableRow>
                     <TableCell>Name</TableCell>
                     <TableCell>Age</TableCell>
+                    <TableCell>Gender</TableCell>
                     <TableCell></TableCell>
                 </TableRow>
             </TableHead>
@@ -36,6 +37,7 @@ export default class ChildManager extends React.Component<IProps, IState> {
                 {applicatoinState.children.map( child => <TableRow key={child.child_id}>
                     <TableCell>{child.name}</TableCell>
                     <TableCell>{getAge(child.date_of_birth)}</TableCell>
+                    <TableCell>{child.gender}</TableCell>
                     <TableCell>
                         <Button mini  color="secondary" onClick={ () => applicatoinState.removeChild(child.child_id) }><RemoveIcon/></Button>
                     </TableCell>

@@ -22,7 +22,6 @@ export default function ChildSelector(props: { selected: UUID[]; onSelect: (c: C
           style={{ height: "100%" }}
         />
         <ListItemText primary={child.name} />
-        {props.selected.indexOf(child.child_id) > -1}
       </ListItem>
     ))}
   </List>

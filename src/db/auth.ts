@@ -1,8 +1,9 @@
 import {firebase, auth} from "./app";
 import Notifier from '@/components/layouts/Notifier';
 import stores from '@/stores';
-import { children } from '@/db/objects';
+import { children, agendaItems } from '@/db/objects';
 import { goTo, PAGES } from '@/components/router/history';
+import { toJS } from 'mobx';
 
 const providers = {
     google: new firebase.auth.GoogleAuthProvider(),
@@ -14,6 +15,7 @@ auth.onAuthStateChanged( async user => {
         stores.isLoggedIn = true;
         stores.userId = user.uid;
         stores.children = [];
+        stores.agendaItems = [];
         const remoteChildrenObj = await children.where("parent_id", '==', user.uid).get();
         remoteChildrenObj.docs.forEach( doc => {
             stores.children.push({
@@ -21,6 +23,17 @@ auth.onAuthStateChanged( async user => {
                 child_id: doc.id,
             });
         } );
+        const remoteAgendaObj = await agendaItems.where("userId", '==', user.uid).get();
+        remoteAgendaObj.docs.forEach( doc => {
+            const data = doc.data() as any;
+            stores.agendaItems.push({
+                ...data,
+                _id: doc.id,
+                startDateTime: new Date(data.startDateTime.seconds * 1000),
+                endDateTime: new Date(data.endDateTime.seconds * 1000),
+            });
+        } );
+        console.log(toJS(stores.agendaItems))
     }   else    {
         stores.isLoggedIn = false;
         stores.userId = null;

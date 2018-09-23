@@ -1,12 +1,34 @@
 import { observable, action } from "mobx";
-import { children, auth } from '@/db';
+import { children, auth, agendaItems } from '@/db';
 import Notifier from '@/components/layouts/Notifier';
+import { database } from '@/db/app';
 
 
 class ApplicationState {
     @observable isLoggedIn:boolean = false;
     @observable userId: string;
     @observable children: Child[] = [];
+    @observable agendaItems: AgendaItem[] = [];
+
+
+    @action async addEvents(items: AgendaItem[]) {
+        const batch = database.batch();
+        items.map( item => {
+            const newItem = agendaItems.doc();
+            item.userId = this.userId;
+            batch.set( newItem, item );
+            this.agendaItems.push(item);
+        } )
+        await batch.commit();
+
+    }
+
+    @action async removeAgenda(agendaID: UUID) {
+        await agendaItems.doc(agendaID).delete();
+        this.agendaItems = this.agendaItems.filter( c => c._id !== agendaID );
+        Notifier.notify("Information Updated!");
+        return;
+    }
 
     @action async addChild(child: Child) {
         const newChildDoc = children.doc();
@@ -37,14 +59,14 @@ class ApplicationState {
                 break;
             }
         }
-        Notifier.notify("New Child Information Updated!");
+        Notifier.notify("Child Information Updated!");
         return newChildDoc;
     }
 
     @action async removeChild(childId: string) {
         await children.doc(childId).delete();
         this.children = this.children.filter( c => c.child_id !== childId );
-        Notifier.notify("New Child Information Updated!");
+        Notifier.notify("Child Information Updated!");
         return;
     }
 }

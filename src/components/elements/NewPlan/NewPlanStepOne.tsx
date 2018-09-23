@@ -67,10 +67,10 @@ export default class NewPlanStepOne extends React.Component<IProps, IState> {
             </Grid>
             <Grid item xs={12} style={{ paddingTop: "20px" }}>
                 <Typography variant="subheading">Activities</Typography>
-                <Categories selected={state.activityTypes} onSelect={ (cat, subcat) => {
-                    const filtered = state.activityTypes.filter( a => !(a.cat === cat && a.subcat === subcat) )
+                <Categories selected={state.activityTypes} onSelect={ (cat) => {
+                    const filtered = state.activityTypes.filter( a => !( a.cat === cat ) )
                     if (filtered.length === this.state.activityTypes.length) {
-                        filtered.push({ cat, subcat })
+                        filtered.push({ cat, subcat: "" })
                     } 
                     this.setState({
                         activityTypes: filtered,

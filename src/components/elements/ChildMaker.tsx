@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as moment from "moment";
-import { Dialog, DialogTitle, DialogContent, TextField, DialogActions, Button } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, TextField, DialogActions, Button, NativeSelect } from '@material-ui/core';
 import Notifier from '@/components/layouts/Notifier';
 import applicatoinState from '@/stores';
 
@@ -11,9 +11,10 @@ interface IProps {
 interface IState {
     newName: string;
     newDob: moment.Moment;
+    gender: string;
 }
 export default class ChildMaker extends React.Component<IProps, IState> {
-    state:IState = { newName: "", newDob: moment().subtract(10, "years") };
+    state:IState = { newName: "", newDob: moment().subtract(10, "years"), gender: "male" };
 
     createChild = () => {
         const { props, state } = this;
@@ -30,7 +31,8 @@ export default class ChildMaker extends React.Component<IProps, IState> {
                 day: state.newDob.day() as Day,
                 month: state.newDob.month() as Month,
                 year: state.newDob.year(),
-            }
+            },
+            gender: state.gender,
         })
         this.setState({
             newName: "", newDob: moment().subtract(10, "years")
@@ -48,6 +50,11 @@ export default class ChildMaker extends React.Component<IProps, IState> {
                     <TextField fullWidth type="date" label="Date of Birth" value={state.newDob.format("YYYY-MM-DD")} onChange={ e => {
                             this.setState({ newDob: moment(e.currentTarget.value, "YYYY-MM-DD") })
                     }}/>
+                    <NativeSelect value={state.gender} onChange={ e => this.setState({ gender: e.currentTarget.value}) }>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="neutral">Neutral</option>
+                    </NativeSelect>
                 </form>
             </DialogContent>
             <DialogActions>

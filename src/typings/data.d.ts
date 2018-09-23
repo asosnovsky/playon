@@ -1,26 +1,57 @@
-interface Activity {
-    act_id: UUID;
-    inst_id: UUID;
+interface RawActivity {
+    address: string;
     category: string;
     sub_category: string;
-    location: {
-        lat: number; 
-        long: number;
-        address: string;
-        postal_code: string;
-    };
-    hours: { start: Time; end: Time; };
-    date: DateObject;
-    contact_info: {
-        email?: string; 
-        phone?: string;
-        name?: string;
-    };
+    contact_info: string;
+    date_day: Day;
+    date_month: Month;
+    date_year: number;
+    end_hour: number;
+    end_min: number;
+    max: number;
+    min: number;
+    postal_code: string;
+    start_hour: string;
+    start_min: string;
+    // act_id: UUID;
+    // inst_id: UUID;
+    // category: string;
+    // sub_category: string;
+    // location: {
+    //     lat: number; 
+    //     long: number;
+    //     address: string;
+    //     postal_code: string;
+    // };
+    // hours: { start: Time; end: Time; };
+    // date: DateObject;
+    // contact_info: {
+    //     email?: string; 
+    //     phone?: string;
+    //     name?: string;
+    // };
+    // age_range: {
+    //     min: number; max: number;
+    // };
+}
+
+interface Activity {
+    category: string;
+    sub_category: string;
+    weekday: number;
+    contact_info: string;
     age_range: {
         min: number; max: number;
     };
+    startTime: {
+        hour: number;
+        min: number;
+    };
+    endTime: {
+        hour: number;
+        min: number;
+    };
 }
-
 interface Institution {
     inst_id: UUID;
     name: string;
@@ -41,6 +72,7 @@ interface Child {
     child_id?: UUID;
     parent_id?: UUID;
     name: string;
+    gender: string;
     date_of_birth: DateObject;
 }
 

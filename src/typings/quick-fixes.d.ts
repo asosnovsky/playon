@@ -6,4 +6,6 @@ interface AgendaItem {
     name          : string;
     startDateTime : Date;
     endDateTime   : Date;
+    userId        : UUID;
+    childId       : UUID;
 }

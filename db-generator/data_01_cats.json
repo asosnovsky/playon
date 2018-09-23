@@ -1,0 +1,347 @@
+{
+    "Swimming": {
+        "name": "Swimming",
+        "sub": {
+            "AL: Lifesaving Society Assistant Instructor": {
+                "name": "AL: Lifesaving Society Assistant Instructor",
+                "count": 1
+            },
+            "AL: Swim Inst./Lifesaving Inst./Emergency First Aid Inst.": {
+                "name": "AL: Swim Inst./Lifesaving Inst./Emergency First Aid Inst.",
+                "count": 1
+            },
+            "Adapted Swim Lessons: Ultra 1-2": {
+                "name": "Adapted Swim Lessons: Ultra 1-2",
+                "count": 1
+            },
+            "Adapted Swim Lessons: Ultra 3-4": {
+                "name": "Adapted Swim Lessons: Ultra 3-4",
+                "count": 2
+            },
+            "Adult Swim 2": {
+                "name": "Adult Swim 2",
+                "count": 1
+            },
+            "Aquafit: Arthritis": {
+                "name": "Aquafit: Arthritis",
+                "count": 2
+            },
+            "Bronze Cross": {
+                "name": "Bronze Cross",
+                "count": 1
+            },
+            "Bronze Medallion and Emergency First Aid (CPR B)": {
+                "name": "Bronze Medallion and Emergency First Aid (CPR B)",
+                "count": 1
+            },
+            "Bronze Star and Basic First Aid (CPR A)": {
+                "name": "Bronze Star and Basic First Aid (CPR A)",
+                "count": 1
+            },
+            "Guardian Swim 1": {
+                "name": "Guardian Swim 1",
+                "count": 4
+            },
+            "Guardian Swim 2": {
+                "name": "Guardian Swim 2",
+                "count": 3
+            },
+            "Guardian Swim 3": {
+                "name": "Guardian Swim 3",
+                "count": 3
+            },
+            "Preschool Swim 1: Penguin": {
+                "name": "Preschool Swim 1: Penguin",
+                "count": 4
+            },
+            "Preschool Swim 2: Stingray": {
+                "name": "Preschool Swim 2: Stingray",
+                "count": 8
+            },
+            "Preschool Swim 3: Otter": {
+                "name": "Preschool Swim 3: Otter",
+                "count": 2
+            },
+            "Ranger Patrol": {
+                "name": "Ranger Patrol",
+                "count": 1
+            },
+            "Rookie Patrol": {
+                "name": "Rookie Patrol",
+                "count": 1
+            },
+            "SPLASH: 27 WEEK PROGRAM": {
+                "name": "SPLASH: 27 WEEK PROGRAM",
+                "count": 1
+            },
+            "Swim Lessons - Private": {
+                "name": "Swim Lessons - Private",
+                "count": 7
+            },
+            "Tiny Tots Swim": {
+                "name": "Tiny Tots Swim",
+                "count": 11
+            },
+            "Ultra Swim 1 - Small Group": {
+                "name": "Ultra Swim 1 - Small Group",
+                "count": 4
+            },
+            "Ultra Swim 2 - Small Group": {
+                "name": "Ultra Swim 2 - Small Group",
+                "count": 4
+            },
+            "Ultra Swim 3 - Small Group": {
+                "name": "Ultra Swim 3 - Small Group",
+                "count": 1
+            },
+            "Ultra Swim 4 - Small Group": {
+                "name": "Ultra Swim 4 - Small Group",
+                "count": 5
+            },
+            "Ultra Swim 5 - Small Group": {
+                "name": "Ultra Swim 5 - Small Group",
+                "count": 4
+            },
+            "Ultra Swim 6 - Small Group": {
+                "name": "Ultra Swim 6 - Small Group",
+                "count": 1
+            },
+            "Ultra Swim 7 - Small Group": {
+                "name": "Ultra Swim 7 - Small Group",
+                "count": 4
+            },
+            "Ultra Swim 8 - Small Group": {
+                "name": "Ultra Swim 8 - Small Group",
+                "count": 1
+            },
+            "Ultra Swim 9 - Small Group": {
+                "name": "Ultra Swim 9 - Small Group",
+                "count": 1
+            }
+        }
+    },
+    "General": {
+        "name": "General",
+        "sub": {
+            "After-School Program": {
+                "name": "After-School Program",
+                "count": 2
+            },
+            "Cooking": {
+                "name": "Cooking",
+                "count": 8
+            },
+            "Club: Girls": {
+                "name": "Club: Girls",
+                "count": 2
+            },
+            "Recreation Adventures": {
+                "name": "Recreation Adventures",
+                "count": 5
+            },
+            "Recreation Discovery": {
+                "name": "Recreation Discovery",
+                "count": 2
+            },
+            "Club: Chess": {
+                "name": "Club: Chess",
+                "count": 2
+            },
+            "Recreation Discovery with Caregiver": {
+                "name": "Recreation Discovery with Caregiver",
+                "count": 5
+            },
+            "Recreation Adventures with Caregiver": {
+                "name": "Recreation Adventures with Caregiver",
+                "count": 3
+            },
+            "Recreation Adventures with caregiver": {
+                "name": "Recreation Adventures with caregiver",
+                "count": 1
+            }
+        }
+    },
+    "Sports": {
+        "name": "Sports",
+        "sub": {
+            "PLAY! Ball Hockey": {
+                "name": "PLAY! Ball Hockey",
+                "count": 3
+            },
+            "PLAY! Basketball": {
+                "name": "PLAY! Basketball",
+                "count": 2
+            },
+            "Karate: Beginner - White Belt": {
+                "name": "Karate: Beginner - White Belt",
+                "count": 2
+            },
+            "Karate: Intermediate/Advanced": {
+                "name": "Karate: Intermediate/Advanced",
+                "count": 2
+            },
+            "PLAY! Pickleball": {
+                "name": "PLAY! Pickleball",
+                "count": 2
+            },
+            "PLAY! Soccer": {
+                "name": "PLAY! Soccer",
+                "count": 4
+            },
+            "Start to PLAY! Soccer": {
+                "name": "Start to PLAY! Soccer",
+                "count": 3
+            },
+            "Cheerleading": {
+                "name": "Cheerleading",
+                "count": 2
+            },
+            "Start to PLAY! Ball Hockey with Caregiver": {
+                "name": "Start to PLAY! Ball Hockey with Caregiver",
+                "count": 2
+            },
+            "Ready, Set, PLAY!": {
+                "name": "Ready, Set, PLAY!",
+                "count": 5
+            },
+            "SKILLS! Ball Hockey": {
+                "name": "SKILLS! Ball Hockey",
+                "count": 1
+            },
+            "SKILLS! Basketball": {
+                "name": "SKILLS! Basketball",
+                "count": 2
+            },
+            "Badminton with Family": {
+                "name": "Badminton with Family",
+                "count": 1
+            },
+            "SKILLS! Soccer": {
+                "name": "SKILLS! Soccer",
+                "count": 2
+            },
+            "Gymnastics: Tumbling": {
+                "name": "Gymnastics: Tumbling",
+                "count": 1
+            },
+            "SKILLS! Volleyball": {
+                "name": "SKILLS! Volleyball",
+                "count": 2
+            },
+            "Gymnastics: Tumbling Level 1 to 4": {
+                "name": "Gymnastics: Tumbling Level 1 to 4",
+                "count": 1
+            },
+            "Pickleball: Recreational": {
+                "name": "Pickleball: Recreational",
+                "count": 3
+            },
+            "Learn to Bike - private": {
+                "name": "Learn to Bike - private",
+                "count": 1
+            }
+        }
+    },
+    "Arts": {
+        "name": "Arts",
+        "sub": {
+            "Dance: Ballet": {
+                "name": "Dance: Ballet",
+                "count": 15
+            },
+            "Dance: Ballet - Advanced": {
+                "name": "Dance: Ballet - Advanced",
+                "count": 2
+            },
+            "Dance: Hip Hop": {
+                "name": "Dance: Hip Hop",
+                "count": 15
+            },
+            "Drama": {
+                "name": "Drama",
+                "count": 4
+            },
+            "Young Artist": {
+                "name": "Young Artist",
+                "count": 4
+            },
+            "Dance: Jazz": {
+                "name": "Dance: Jazz",
+                "count": 7
+            },
+            "Music: Guitar - Private": {
+                "name": "Music: Guitar - Private",
+                "count": 8
+            },
+            "Dance: Hip Hop - Advanced": {
+                "name": "Dance: Hip Hop - Advanced",
+                "count": 2
+            },
+            "Dance: Hip Hop - Beginner (Boys)": {
+                "name": "Dance: Hip Hop - Beginner (Boys)",
+                "count": 1
+            },
+            "Dance: Line Dance": {
+                "name": "Dance: Line Dance",
+                "count": 4
+            },
+            "Music: Singing - Private": {
+                "name": "Music: Singing - Private",
+                "count": 13
+            },
+            "Photography": {
+                "name": "Photography",
+                "count": 1
+            },
+            "Art Club": {
+                "name": "Art Club",
+                "count": 3
+            },
+            "Dance: Line Dance - Advanced": {
+                "name": "Dance: Line Dance - Advanced",
+                "count": 1
+            },
+            "Drawing": {
+                "name": "Drawing",
+                "count": 2
+            },
+            "Crafty Creations": {
+                "name": "Crafty Creations",
+                "count": 1
+            },
+            "Crafty Creations with Caregiver": {
+                "name": "Crafty Creations with Caregiver",
+                "count": 1
+            },
+            "Jewellery Making": {
+                "name": "Jewellery Making",
+                "count": 1
+            },
+            "Dance: Dance Basics": {
+                "name": "Dance: Dance Basics",
+                "count": 1
+            }
+        }
+    },
+    "Fitness": {
+        "name": "Fitness",
+        "sub": {
+            "Cardio Mix (Women)": {
+                "name": "Cardio Mix (Women)",
+                "count": 1
+            },
+            "Pilates - Beginner": {
+                "name": "Pilates - Beginner",
+                "count": 1
+            },
+            "Yoga: Hatha": {
+                "name": "Yoga: Hatha",
+                "count": 1
+            },
+            "Osteo Fit": {
+                "name": "Osteo Fit",
+                "count": 1
+            }
+        }
+    }
+}
