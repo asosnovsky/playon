@@ -2,7 +2,6 @@ import * as React from "react";
 import * as moment from "moment";
 import { Grid, Dialog, DialogTitle, DialogContent, TextField, NativeSelect, FormControl, InputLabel, Button, DialogActions } from "@material-ui/core";
 import Agenda from '@/components/elements/Agenda';
-import { mockAgendaItems } from '@/db/mock';
 import Notifier from '@/components/layouts/Notifier';
 import { observer } from 'mobx-react';
 import applicatoinState from '@/stores';

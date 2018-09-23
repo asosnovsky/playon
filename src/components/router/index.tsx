@@ -14,6 +14,7 @@ import ExamplePage from '@/components/pages/ExamplePage';
 import IndexPage from '@/components/pages/IndexPage';
 import ChildrenPage from '@/components/pages/ChildrenPage';
 import NewPlanPage from '@/components/pages/NewPlanPage';
+import HeadDialog from '@/components/layouts/HeadDialog';
 
 export default class AppRouter extends React.Component {
     public render() {
@@ -21,6 +22,7 @@ export default class AppRouter extends React.Component {
             <ErrorBoundary>
                 <NavBar />
                 <SideBar/>
+                <HeadDialog/>
                 <ErrorBoundary>
                     <div style={{ marginTop: "5%" }}>
                         <Router history={history}>
